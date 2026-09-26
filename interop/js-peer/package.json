@@ -15,7 +15,7 @@
     "@orbitdb/core": "4.0.0",
     "@orbitdb/simple-encryption": "0.0.2",
     "blockstore-core": "^7.0.1",
-    "helia": "^6.1.4",
+    "helia": "^7.1.14",
     "it-drain": "^3.0.12",
     "libp2p": "^3.3.11"
   }
