@@ -12,7 +12,7 @@ require (
 	github.com/ipfs/go-ipld-format v0.6.4
 	github.com/ipld/go-ipld-prime v0.24.0
 	github.com/libp2p/go-libp2p v0.49.0
-	github.com/libp2p/go-libp2p-pubsub v0.17.0
+	github.com/libp2p/go-libp2p-pubsub v0.18.0
 	github.com/multiformats/go-multiaddr v0.16.1
 	github.com/multiformats/go-multibase v0.3.0
 	github.com/multiformats/go-multihash v0.2.3
