@@ -7,6 +7,12 @@ updates:
     groups:
       go-deps:
         patterns: ["*"]
+    ignore:
+      # go-libp2p has an old v6.0.23+incompatible tag from before Go modules.
+      # Dependabot takes it for the latest release and the group update fails,
+      # so go-libp2p never moves. A real v6 would live at .../go-libp2p/v6.
+      - dependency-name: github.com/libp2p/go-libp2p
+        versions: [">= 6.0.0"]
   - package-ecosystem: github-actions
     directory: /
     schedule:
