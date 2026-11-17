@@ -28,7 +28,7 @@ fmt.Println(kv.Address()) // /orbitdb/zdpu... — share it with peers
 go get github.com/orbitdb/go-orbitdb
 ```
 
-Go 1.26 or later.
+Go 1.26.6 or later.
 
 ## What's included
 
